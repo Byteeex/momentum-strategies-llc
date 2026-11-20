@@ -18,3 +18,7 @@
 .menu-fallback a { color:#102b43; font-size:2rem; }
 @media (max-width:700px) { .site-header ~ main [id] { scroll-margin-top:68px; } .menu-panel { top:68px; } .menu-panel #interactive-hover-links-root section { padding-top:10px; } .menu-panel #interactive-hover-links-root a > div:first-child { max-width:calc(100% - 38px); } .menu-panel #interactive-hover-links-root a > div:first-child > span:first-child { font-size:clamp(1.8rem,8vw,2.7rem); } .menu-panel #interactive-hover-links-root a > div:first-child > span:last-child { font-size:.9rem; } }
 @media (prefers-reduced-motion:reduce) { .site-header .menu-toggle span { transition:none; } }
+
+/* Keep hero copy aligned after the menu component's utility stylesheet loads. */
+.hero-content.container,.hero-bottom.container{width:min(1180px,calc(100% - 64px));max-width:none;margin-inline:auto}
+@media(max-width:700px){.hero-content.container,.hero-bottom.container{width:calc(100% - 38px)}}
