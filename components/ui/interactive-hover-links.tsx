@@ -107,8 +107,8 @@ function Link({ heading, imgSrc, subheading, href }: InteractiveLink) {
 }
 
 export const INTERACTIVE_LINKS: InteractiveLink[] = [
-  { heading: "Services", subheading: "Every phase of the federal lifecycle", imgSrc: "assets/hover/services.jpg", href: "#services" },
-  { heading: "Our approach", subheading: "A connected operating model", imgSrc: "assets/hover/approach.jpg", href: "#approach" },
-  { heading: "About", subheading: "Get to know Momentum Strategies", imgSrc: "assets/hover/about.jpg", href: "#about" },
-  { heading: "Start a conversation", subheading: "Tell us what you are building", imgSrc: "assets/hover/contact.jpg", href: "#contact" },
+  { heading: "Services", subheading: "Every phase of the federal lifecycle", imgSrc: "assets/hover/services-v2.webp", href: "#services" },
+  { heading: "Our approach", subheading: "A connected operating model", imgSrc: "assets/hover/approach-v2.webp", href: "#approach" },
+  { heading: "About", subheading: "Get to know Momentum Strategies", imgSrc: "assets/hover/about-v2.webp", href: "#about" },
+  { heading: "Start a conversation", subheading: "Tell us what you are building", imgSrc: "assets/hover/contact-v2.webp", href: "#contact" },
 ];
