@@ -1,0 +1,50 @@
+@import "tailwindcss/theme.css";
+@import "tailwindcss/utilities.css";
+@source "../components";
+
+@theme {
+  --color-background: #e8eff3;
+  --color-foreground: #102b43;
+  --color-muted: #bdced8;
+  --color-muted-foreground: #668092;
+}
+
+#interactive-hover-links-root {
+  font-family: Manrope, sans-serif;
+}
+
+#interactive-hover-links-root .hover-links-intro {
+  padding: 38px 32px 0;
+  background: #e8eff3;
+}
+
+#interactive-hover-links-root .hover-links-intro-inner {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+#interactive-hover-links-root .hover-links-intro p {
+  color: #99703b;
+  font-weight: 800;
+  font-size: .75rem;
+  letter-spacing: .2em;
+  margin-bottom: 15px;
+}
+
+#interactive-hover-links-root .hover-links-intro h2 {
+  color: #102b43;
+  font-size: clamp(2.5rem, 4.4vw, 4.6rem);
+  line-height: 1.12;
+  letter-spacing: -.055em;
+  margin-bottom: 0;
+}
+
+#interactive-hover-links-root .hover-links-intro h2 span { color: #718898; }
+
+@media (max-width: 700px) {
+  #interactive-hover-links-root .hover-links-intro { padding: 28px 19px 0; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  #interactive-hover-links-root * { animation-duration: .01ms !important; transition-duration: .01ms !important; }
+}

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+  <symbol id="dod" viewBox="0 0 64 64"><path d="M32 7 54 18v20L32 54 10 38V18Z"/><path d="m32 16 3.3 10.2H46l-8.7 6.3 3.3 10.2L32 36.4l-8.6 6.3 3.3-10.2-8.7-6.3h10.7Z"/></symbol>
+  <symbol id="va" viewBox="0 0 64 64"><path d="M32 7 52 15v16c0 13-8 21-20 26C20 52 12 44 12 31V15Z"/><path d="m21 29 7 15 15-25"/></symbol>
+  <symbol id="gsa" viewBox="0 0 64 64"><path d="M8 22 32 8l24 14M12 25h40M11 53h42M16 48h32M19 28v19M28 28v19M36 28v19M45 28v19"/></symbol>
+  <symbol id="usace" viewBox="0 0 64 64"><path d="M9 52h46V27l-7-5v-8h-8v8l-8 5-8-5v-8h-8v8l-7 5Z"/><path d="M26 52V38a6 6 0 0 1 12 0v14M10 29h44"/></symbol>
+  <symbol id="navfac" viewBox="0 0 64 64"><circle cx="32" cy="13" r="5"/><path d="M32 18v35M17 27h30M9 39c2 11 10 17 23 17s21-6 23-17M9 39l8 3M55 39l-8 3"/></symbol>
+  <symbol id="nps" viewBox="0 0 64 64"><path d="M7 48 22 25l10 13 8-12 17 22H7ZM9 55h46M45 22l5-10 5 10M50 22v14"/></symbol>
+  <symbol id="sdvosb" viewBox="0 0 64 64"><path d="M32 7 52 15v17c0 12-7 20-20 25C19 52 12 44 12 32V15Z"/><path d="m32 17 3.2 9.6h10l-8.1 5.9 3.1 9.5L32 36.1l-8.2 5.9 3.1-9.5-8.1-5.9h10Z"/></symbol>
+  <symbol id="sb" viewBox="0 0 64 64"><path d="M10 27h44l-4-14H14ZM15 27v27h34V27M23 54V40h18v14M8 27c0 5 4 8 8 8s8-3 8-8c0 5 4 8 8 8s8-3 8-8c0 5 4 8 8 8s8-3 8-8"/></symbol>
+  <symbol id="sba" viewBox="0 0 64 64"><path d="M9 53h46M14 47h36M19 47V26M28 47V26M36 47V26M45 47V26M10 22 32 9l22 13H10Z"/><circle cx="32" cy="19" r="3"/></symbol>
+  <symbol id="eighta" viewBox="0 0 64 64"><circle cx="32" cy="32" r="23"/><path d="M22 35h20M25 42c4 5 10 5 14 0M25 28c0-5 3-8 7-8s7 3 7 8-3 8-7 8-7-3-7-8Z"/></symbol>
+  <symbol id="hubzone" viewBox="0 0 64 64"><path d="M32 56s20-16 20-33a20 20 0 0 0-40 0c0 17 20 33 20 33Z"/><circle cx="32" cy="23" r="8"/></symbol>
+  <symbol id="wosb" viewBox="0 0 64 64"><circle cx="32" cy="23" r="15"/><path d="M32 38v18M21 49h22M24 24l6 6 11-13"/></symbol>
+</svg>

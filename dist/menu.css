@@ -1,0 +1,20 @@
+.site-header { position: fixed; background: rgba(8,26,43,.95); backdrop-filter: blur(16px); -webkit-backdrop-filter: blur(16px); }
+.site-header .menu-toggle { display:flex; position:relative; z-index:2; flex-direction:column; gap:5px; align-items:center; justify-content:center; width:48px; height:48px; padding:10px; border:1px solid rgba(255,255,255,.25); border-radius:50%; background:rgba(255,255,255,.06); cursor:pointer; transition:background .2s ease,border-color .2s ease; }
+.site-header .menu-toggle:hover,.site-header .menu-toggle:focus-visible { background:rgba(255,255,255,.16); border-color:rgba(255,255,255,.65); }
+.site-header .menu-toggle:focus-visible { outline:2px solid #d4a65e; outline-offset:3px; }
+.site-header .menu-toggle span { display:block; width:22px; height:2px; background:white; transition:transform .25s ease,opacity .2s ease; }
+.site-header .menu-toggle[aria-expanded="true"] span:first-child { transform:translateY(7px) rotate(45deg); }
+.site-header .menu-toggle[aria-expanded="true"] span:nth-child(2) { opacity:0; }
+.site-header .menu-toggle[aria-expanded="true"] span:last-child { transform:translateY(-7px) rotate(-45deg); }
+.menu-panel[hidden] { display:none !important; }
+.site-header ~ main [id] { scroll-margin-top:80px; }
+.menu-panel { position:fixed; inset:80px 0 0; z-index:29; overflow-y:auto; overscroll-behavior:contain; background:#e8eff3; color:#102b43; box-shadow:0 22px 60px rgba(4,17,30,.25); }
+.menu-panel #interactive-hover-links-root { min-height:100%; }
+.menu-panel #interactive-hover-links-root section { padding-top:16px; padding-bottom:40px; }
+.menu-panel #interactive-hover-links-root section > div { max-width:1024px; }
+.menu-panel #interactive-hover-links-root a > div:first-child { max-width:calc(100% - 56px); }
+.menu-panel #interactive-hover-links-root a > div:first-child > span:first-child { font-size:clamp(2rem,5vw,3.75rem); line-height:1.15; }
+.menu-fallback { display:grid; gap:20px; padding:40px; }
+.menu-fallback a { color:#102b43; font-size:2rem; }
+@media (max-width:700px) { .site-header ~ main [id] { scroll-margin-top:68px; } .menu-panel { top:68px; } .menu-panel #interactive-hover-links-root section { padding-top:10px; } .menu-panel #interactive-hover-links-root a > div:first-child { max-width:calc(100% - 38px); } .menu-panel #interactive-hover-links-root a > div:first-child > span:first-child { font-size:clamp(1.8rem,8vw,2.7rem); } .menu-panel #interactive-hover-links-root a > div:first-child > span:last-child { font-size:.9rem; } }
+@media (prefers-reduced-motion:reduce) { .site-header .menu-toggle span { transition:none; } }
