@@ -1,0 +1,96 @@
+/* Phone layout: concise content, readable steps, and a touch friendly photo menu. */
+@media (max-width:700px){
+  .container,.hero-content.container,.hero-bottom.container{width:calc(100% - 40px)}
+  .section{padding-top:68px;padding-bottom:68px}
+  .site-header{height:72px;padding-inline:20px}
+  .brand{gap:10px}
+  .brand-type{font-size:.82rem}
+  .brand-type small{font-size:.48rem;letter-spacing:.29em}
+  .menu-panel{inset:72px 0 0;background:#081b2d;color:#fff}
+  .menu-panel #interactive-hover-links-root section{padding:18px 20px 28px;background:#081b2d}
+  .menu-panel #interactive-hover-links-root a{display:flex;align-items:flex-end;min-height:126px;margin-bottom:12px;padding:20px;border:0;border-radius:14px;overflow:hidden;background-color:#18354b;background-size:cover;background-position:center;isolation:isolate}
+  .menu-panel #interactive-hover-links-root a:nth-child(1){background-image:url('assets/blueprint-meeting.webp')}
+  .menu-panel #interactive-hover-links-root a:nth-child(2){background-image:url('assets/la-construction.webp');background-position:center 76%}
+  .menu-panel #interactive-hover-links-root a:nth-child(3){background-image:url('assets/houston-construction.webp')}
+  .menu-panel #interactive-hover-links-root a:nth-child(4){background-image:url('assets/contact-handshake.webp')}
+  .menu-panel #interactive-hover-links-root a:before{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(90deg,rgba(5,23,38,.9),rgba(5,23,38,.28))}
+  .menu-panel #interactive-hover-links-root a > div:first-child{max-width:100%}
+  .menu-panel #interactive-hover-links-root a > div:first-child > span:first-child{color:#fff;font-size:clamp(1.55rem,6.4vw,2.3rem);line-height:1.12;text-shadow:0 2px 10px rgba(0,0,0,.3)}
+  .menu-panel #interactive-hover-links-root a > div:first-child > span:first-child span{transform:none!important}
+  .menu-panel #interactive-hover-links-root a > img,.menu-panel #interactive-hover-links-root a > div:last-child{display:none}
+  .menu-panel #interactive-hover-links-root a:focus-visible{outline:3px solid #e8b36a;outline-offset:2px}
+  .site-header ~ main [id]{scroll-margin-top:72px}
+  .hero{height:auto;min-height:min(760px,100svh);display:flex;align-items:center}
+  .hero-video{object-position:27% center}
+  .hero-shade{background:linear-gradient(90deg,rgba(4,20,35,.9),rgba(4,20,35,.46)),linear-gradient(0deg,rgba(4,20,35,.42),transparent 55%)}
+  .hero-content{padding-top:140px;padding-bottom:88px}
+  .hero h1{font-size:clamp(2.85rem,12vw,4.6rem);line-height:1.06;letter-spacing:-.06em;margin:22px 0 22px}
+  .hero-copy{font-size:1.05rem;line-height:1.55;max-width:31ch}
+  .hero-actions{margin-top:30px;gap:20px}
+  .hero-actions .button{min-height:52px}
+  .agency-section{padding-block:28px 30px}
+  .agency-heading{margin-bottom:15px}
+  .agency-pill{min-width:200px}
+  .intro{gap:18px;padding-top:64px;padding-bottom:27px}
+  .intro h2{font-size:clamp(2.15rem,9vw,3.35rem);line-height:1.13;margin:0;max-width:18ch}
+  .intro-label .section-line{margin-top:14px}
+  .services{gap:16px;padding-top:0}
+  .service-card{min-height:0;border-radius:14px;box-shadow:0 8px 22px rgba(7,27,45,.045)}
+  .service-photo{height:clamp(180px,53vw,250px)}
+  .service-card > div:last-child{padding:23px 24px 25px}
+  .service-card h3{font-size:1.32rem;line-height:1.25}
+  .service-card p:not(.card-kicker){font-size:.94rem;line-height:1.5}
+  .approach .section-head{margin-bottom:27px}
+  .approach .section-head h2,.programs h2,.about h2{font-size:clamp(2.15rem,9vw,3.35rem);line-height:1.12}
+  .approach-photo{height:clamp(205px,58vw,300px);margin-bottom:34px;border-radius:14px}
+  .timeline{display:block;border-top:0;border-left:1px solid #b9cbd5;margin-left:5px}
+  .timeline article{padding:0 0 30px 29px}
+  .timeline article:last-child{padding-bottom:0}
+  .timeline article:before{top:4px;left:-5px}
+  .timeline h3{margin:8px 0 7px;font-size:1.22rem}
+  .timeline p{max-width:34ch;margin-bottom:0;font-size:.96rem;line-height:1.55}
+  .programs .section-head{margin-bottom:25px}
+  .programs .section-head>p{margin-top:17px;font-size:1rem;line-height:1.55}
+  .programs-photo{height:clamp(205px,55vw,280px);margin-bottom:16px;border-radius:14px}
+  .program-grid{grid-template-columns:1fr;gap:12px}
+  .program-card{display:grid;grid-template-columns:76px minmax(0,1fr);column-gap:18px;align-items:center;min-height:0;padding:20px;border-radius:14px}
+  .program-emblem{width:72px;height:72px;grid-row:1 / span 2;margin:0}
+  .program-emblem:after{inset:7px}
+  .program-emblem i{inset:14px}
+  .program-icon{width:27px;height:27px}
+  .program-emblem span{font-size:.55rem}
+  .program-card h3{min-height:0;margin:0 0 5px;font-size:1.04rem;line-height:1.27}
+  .program-card p{margin:0;font-size:.9rem;line-height:1.43}
+  .program-note{margin-top:20px;font-size:.8rem;line-height:1.45}
+  .about{gap:30px}
+  .about-visual.photo-visual{min-height:0;border-radius:14px}
+  .about-visual.photo-visual img{height:clamp(270px,78vw,390px)}
+  .about-copy h2{margin:16px 0 21px}
+  .about-copy p:not(.eyebrow){font-size:1rem;line-height:1.6}
+  .contact{padding-block:70px}
+  .contact-inner{gap:27px}
+  .contact h2{font-size:clamp(2.8rem,11vw,4rem);margin:17px 0}
+  .contact-inner>div>p:not(.eyebrow){font-size:1rem}
+  .contact-panel{max-width:none;padding:27px;border-radius:14px}
+  .contact-panel .button{margin-top:22px}
+  .contact-email{font-size:.9rem;overflow-wrap:anywhere}
+  .site-footer{padding-top:43px}
+  .footer-top{gap:30px;padding-bottom:37px}
+  .footer-top>div{flex-wrap:wrap;gap:14px 25px;font-size:.9rem}
+  .footer-bottom{gap:8px;font-size:.77rem;line-height:1.5}
+}
+@media (min-width:701px) and (max-width:900px){
+  .section{padding-top:84px;padding-bottom:84px}
+  .timeline{grid-template-columns:repeat(2,minmax(0,1fr));gap:26px 22px}
+  .timeline h3{margin-top:24px}
+  .program-card{min-height:280px}
+  .service-photo{height:190px}
+}
+@media (max-width:360px){
+  .container,.hero-content.container,.hero-bottom.container{width:calc(100% - 32px)}
+  .site-header{padding-inline:16px}
+  .brand-type{font-size:.73rem}
+  .hero h1{font-size:2.72rem}
+  .program-card{grid-template-columns:66px minmax(0,1fr);column-gap:13px;padding:17px}
+  .program-emblem{width:64px;height:64px}
+}
