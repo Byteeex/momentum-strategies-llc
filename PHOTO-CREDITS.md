@@ -12,3 +12,4 @@ The website uses illustrative stock photographs. Each image below was published 
 | `document-review.webp` | Vitaly Gariev | [Office document review](https://unsplash.com/photos/two-colleagues-reviewing-documents-at-an-office-desk-zQXdDfmkevA) |
 | `houston-construction.webp` | Josh Olalde | [Houston worksite](https://unsplash.com/photos/construction-worker-in-hard-hat-on-building-frame-X1P1_EDNnok) |
 | `contact-handshake.webp` | Vitaly Gariev | [Professional conversation](https://unsplash.com/photos/two-professionals-shaking-hands-across-a-table-jEpZNyFSQwQ) |
+| `capitol-agencies.webp` | Sebastian Schuster | [U.S. Capitol](https://unsplash.com/photos/the-united-states-capitol-building-with-grand-stone-stairs-fSxpTewH-oo) |
