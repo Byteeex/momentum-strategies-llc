@@ -22,3 +22,12 @@
 /* Keep hero copy aligned after the menu component's utility stylesheet loads. */
 .hero-content.container,.hero-bottom.container{width:min(1180px,calc(100% - 64px));max-width:none;margin-inline:auto}
 @media(max-width:700px){.hero-content.container,.hero-bottom.container{width:calc(100% - 38px)}}
+
+/* Give the concise cards a tighter rhythm. */
+.service-card{min-height:225px}
+.service-card p{margin-bottom:0!important}
+.program-card{min-height:270px}
+.program-emblem{margin-bottom:28px}
+.contact-panel .button{margin-top:28px}
+@media(max-width:700px){.service-card{min-height:205px}.program-card{min-height:245px}}
+@media(max-width:470px){.program-card{min-height:220px}}

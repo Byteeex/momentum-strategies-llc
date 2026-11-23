@@ -5,7 +5,6 @@ import { ArrowRight } from "lucide-react";
 export interface InteractiveLink {
   heading: string;
   imgSrc: string;
-  subheading: string;
   href: string;
 }
 
@@ -27,7 +26,7 @@ export function InteractiveHoverLinks({
   );
 }
 
-function Link({ heading, imgSrc, subheading, href }: InteractiveLink) {
+function Link({ heading, imgSrc, href }: InteractiveLink) {
   const ref = useRef<HTMLAnchorElement | null>(null);
 
   const x = useMotionValue(0);
@@ -79,9 +78,6 @@ function Link({ heading, imgSrc, subheading, href }: InteractiveLink) {
             </motion.span>
           ))}
         </motion.span>
-        <span className="relative z-10 mt-2 block text-base text-muted-foreground transition-colors duration-500 group-hover:text-foreground">
-          {subheading}
-        </span>
       </div>
 
       <motion.img
@@ -107,8 +103,8 @@ function Link({ heading, imgSrc, subheading, href }: InteractiveLink) {
 }
 
 export const INTERACTIVE_LINKS: InteractiveLink[] = [
-  { heading: "Services", subheading: "Every phase of the federal lifecycle", imgSrc: "assets/hover/services-v2.webp", href: "#services" },
-  { heading: "Our approach", subheading: "A connected operating model", imgSrc: "assets/hover/approach-v2.webp", href: "#approach" },
-  { heading: "About", subheading: "Get to know Momentum Strategies", imgSrc: "assets/hover/about-v2.webp", href: "#about" },
-  { heading: "Start a conversation", subheading: "Tell us what you are building", imgSrc: "assets/hover/contact-v2.webp", href: "#contact" },
+  { heading: "Services", imgSrc: "assets/hover/services-v2.webp", href: "#services" },
+  { heading: "Our approach", imgSrc: "assets/hover/approach-v2.webp", href: "#approach" },
+  { heading: "About", imgSrc: "assets/hover/about-v2.webp", href: "#about" },
+  { heading: "Start a conversation", imgSrc: "assets/hover/contact-v2.webp", href: "#contact" },
 ];
