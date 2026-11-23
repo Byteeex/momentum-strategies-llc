@@ -86,7 +86,8 @@ function Link({ heading, imgSrc, href }: InteractiveLink) {
         transition={{ type: "spring" }}
         src={imgSrc}
         className="pointer-events-none absolute z-0 h-24 w-32 rounded-lg object-cover shadow-lg md:h-48 md:w-64"
-        alt={`Image representing ${heading}`}
+        alt=""
+        aria-hidden="true"
         loading="lazy"
       />
       <div className="overflow-hidden">
@@ -103,8 +104,8 @@ function Link({ heading, imgSrc, href }: InteractiveLink) {
 }
 
 export const INTERACTIVE_LINKS: InteractiveLink[] = [
-  { heading: "Services", imgSrc: "assets/hover/services-v2.webp", href: "#services" },
-  { heading: "Our approach", imgSrc: "assets/hover/approach-v2.webp", href: "#approach" },
-  { heading: "About", imgSrc: "assets/hover/about-v2.webp", href: "#about" },
-  { heading: "Start a conversation", imgSrc: "assets/hover/contact-v2.webp", href: "#contact" },
+  { heading: "Services", imgSrc: "assets/blueprint-meeting.webp", href: "#services" },
+  { heading: "Our approach", imgSrc: "assets/la-construction.webp", href: "#approach" },
+  { heading: "About", imgSrc: "assets/houston-construction.webp", href: "#about" },
+  { heading: "Start a conversation", imgSrc: "assets/contact-handshake.webp", href: "#contact" },
 ];

@@ -3,10 +3,10 @@ import { InteractiveHoverLinks, type InteractiveLink } from "@/components/ui/int
 import "./hover-links.css";
 
 const links: InteractiveLink[] = [
-  { heading: "Services", imgSrc: "assets/hover/services-v2.webp", href: "#services" },
-  { heading: "Our approach", imgSrc: "assets/hover/approach-v2.webp", href: "#approach" },
-  { heading: "About", imgSrc: "assets/hover/about-v2.webp", href: "#about" },
-  { heading: "Start a conversation", imgSrc: "assets/hover/contact-v2.webp", href: "#contact" },
+  { heading: "Services", imgSrc: "assets/blueprint-meeting.webp", href: "#services" },
+  { heading: "Our approach", imgSrc: "assets/la-construction.webp", href: "#approach" },
+  { heading: "About", imgSrc: "assets/houston-construction.webp", href: "#about" },
+  { heading: "Start a conversation", imgSrc: "assets/contact-handshake.webp", href: "#contact" },
 ];
 
 const mount = document.getElementById("interactive-hover-links-root");

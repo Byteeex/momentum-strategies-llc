@@ -17452,7 +17452,8 @@ function pM({ heading: a, imgSrc: l, href: r }) {
             transition: { type: "spring" },
             src: l,
             className: "pointer-events-none absolute z-0 h-24 w-32 rounded-lg object-cover shadow-lg md:h-48 md:w-64",
-            alt: `Image representing ${a}`,
+            alt: "",
+            "aria-hidden": "true",
             loading: "lazy"
           }
         ),
@@ -17470,14 +17471,14 @@ function pM({ heading: a, imgSrc: l, href: r }) {
   );
 }
 const SM = [
-  { heading: "Services", imgSrc: "assets/hover/services-v2.webp", href: "#services" },
-  { heading: "Our approach", imgSrc: "assets/hover/approach-v2.webp", href: "#approach" },
-  { heading: "About", imgSrc: "assets/hover/about-v2.webp", href: "#about" },
-  { heading: "Start a conversation", imgSrc: "assets/hover/contact-v2.webp", href: "#contact" }
+  { heading: "Services", imgSrc: "assets/blueprint-meeting.webp", href: "#services" },
+  { heading: "Our approach", imgSrc: "assets/la-construction.webp", href: "#approach" },
+  { heading: "About", imgSrc: "assets/houston-construction.webp", href: "#about" },
+  { heading: "Start a conversation", imgSrc: "assets/contact-handshake.webp", href: "#contact" }
 ], TM = [
-  { heading: "Services", imgSrc: "assets/hover/services-v2.webp", href: "#services" },
-  { heading: "Our approach", imgSrc: "assets/hover/approach-v2.webp", href: "#approach" },
-  { heading: "About", imgSrc: "assets/hover/about-v2.webp", href: "#about" },
-  { heading: "Start a conversation", imgSrc: "assets/hover/contact-v2.webp", href: "#contact" }
+  { heading: "Services", imgSrc: "assets/blueprint-meeting.webp", href: "#services" },
+  { heading: "Our approach", imgSrc: "assets/la-construction.webp", href: "#approach" },
+  { heading: "About", imgSrc: "assets/houston-construction.webp", href: "#about" },
+  { heading: "Start a conversation", imgSrc: "assets/contact-handshake.webp", href: "#contact" }
 ], Sv = document.getElementById("interactive-hover-links-root");
 Sv && db.createRoot(Sv).render(/* @__PURE__ */ pe.jsx(vM, { links: TM }));
